@@ -1,0 +1,5 @@
+
+Word piece models start with individual characters and then merge the most frequent pairs of characters.
+For example, starting with "hello", you might first merge "h" and "e" to form "he", then "l" and "l" to form "ll", and so on.
+The process continues until the desired vocabulary size is reached.
+In this assignment, you will identify the first 10 pairs that a word piece algorithm would merge from the given text.
